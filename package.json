@@ -1,0 +1,22 @@
+{
+  "name": "node-api-moderation",
+  "version": "1.0.0",
+  "description": "Quick text moderation api",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --require esm test.js",
+    "start": " node app.js"
+  },
+  "author": "Reaven23",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "chai": "^4.4.0",
+    "chai-http": "^4.4.0",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "mocha": "^10.3.0"
+  }
+}
