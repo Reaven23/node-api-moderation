@@ -68,8 +68,10 @@ app.post('/api/moderation/score', async (req, res) => {
       },
     });
 
+
+
     const score = response.data.score;
-    res.json(`L'indice de qualité du contenu est de ${score.toFixed(2)}/10`);
+    res.json({score: `L'indice de qualité du contenu est de ${score.toFixed(2)}`});
 
   } catch (error) {
     console.error(error);
